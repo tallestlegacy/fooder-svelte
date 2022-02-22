@@ -1,7 +1,3 @@
-const soups = document.getElementById('soups');
-const pizzas = document.getElementById('pizzas');
-const fish = document.getElementById('fish');
-
 // Soups
 export const pizzaList = [
 	{
