@@ -1,7 +1,5 @@
 <script>
 	import '$lib/styles/index.css';
-	import steak from '$lib/assets/images/steak.jpg';
-	import drinks from '$lib/assets/images/drinks.jpg';
 </script>
 
 <main>
@@ -18,7 +16,7 @@
 					<button class="actionable">Order Now</button>
 				</a>
 			</div>
-			<img src={steak} alt="" />
+			<img src="/images/steak.jpg" alt="" />
 		</div>
 		<div class="card top">
 			<div class="card-head">
@@ -28,7 +26,7 @@
 					<button class="actionable">Order Now</button>
 				</a>
 			</div>
-			<img src={drinks} alt="" />
+			<img src="images/drinks.jpg" alt="" />
 		</div>
 		<div class="card important">
 			<p>We do door to door deliver of food to any location within NewShamigton free of charge</p>
