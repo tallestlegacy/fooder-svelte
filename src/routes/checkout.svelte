@@ -78,15 +78,6 @@
 		margin-left: auto;
 	}
 
-	button.delete {
-		padding: 4px 4px;
-		height: 100%;
-		aspect-ratio: 1;
-		margin: 0 0;
-		background-color: pink;
-		color: red;
-	}
-
 	button {
 		max-width: fit-content;
 	}

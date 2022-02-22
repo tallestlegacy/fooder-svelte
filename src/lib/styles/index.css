@@ -24,9 +24,6 @@
 	margin: 16px;
 }
 
-.top {
-}
-
 @media (min-width: 800px) {
 	.top {
 		display: grid;
@@ -36,9 +33,6 @@
 
 	img {
 		height: 100%;
-	}
-	.card div:nth-of-type() {
-		flex-direction: column-reverse;
 	}
 }
 
