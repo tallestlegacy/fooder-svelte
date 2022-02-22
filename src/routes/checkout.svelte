@@ -25,7 +25,7 @@
 <main>
 	{#if $cart.length > 0}
 		<div class="cart">
-			<span class="heading">Cart {isPopping}</span>
+			<span class="heading">Cart</span>
 			<div class="items">
 				{#each $cart as item}
 					<div class="item">
