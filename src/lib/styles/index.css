@@ -1,0 +1,49 @@
+.hero {
+	height: 60vh;
+	background-image: url(/images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero .heading {
+	font-family: SerifFontBoldItalic, serif;
+	font-size: 80px;
+	color: white;
+	text-shadow: 0 2px 12px #000;
+}
+
+.content {
+	display: grid;
+	gap: 32px;
+}
+
+.card-head {
+	margin: 16px;
+}
+
+.top {
+}
+
+@media (min-width: 800px) {
+	.top {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		height: 500px;
+	}
+
+	img {
+		height: 100%;
+	}
+	.card div:nth-of-type() {
+		flex-direction: column-reverse;
+	}
+}
+
+@media (max-width: 600px) {
+	.hero .heading {
+		font-size: 60px;
+	}
+}
